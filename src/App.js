@@ -19,7 +19,7 @@ const App = () => {
 
   const getGifs = async () => {
     const response = await fetch(
-      `https://api.giphy.com/v1/gifs/search?api_key=${API_KEY}&q=programming&limit=10&offset=0&rating=G&lang=en`
+      `https://api.giphy.com/v1/gifs/search?api_key=${API_KEY}&q=programming&limit=12&offset=0&rating=G&lang=en`
     );
     const data = await response.json();
     setGifs(data.data);
@@ -29,14 +29,15 @@ const App = () => {
   return (
     <>
       <GlobalStyle />
+      <Title>Giphynator</Title>
+      <Form>
+        <Input type="search"></Input>
+        <Button type="submit"></Button>
+      </Form>
       <Wrapper>
-        <Form>
-          <Input type="search"></Input>
-          <Button type="submit"></Button>
-        </Form>
-        <Title>Giphynator!!!!!!</Title>
         {gifs.map(gif => (
-          <Gif />
+          <Gif
+            image={gif.images.downsized.url} />
         ))}
       </Wrapper>
     </>

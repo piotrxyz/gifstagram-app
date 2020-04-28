@@ -15,7 +15,7 @@ body {
   height: 100vh;
   background: url(${background}) no-repeat center;
   background-size: cover;
-  overflow: hidden;
+  overflow-x: hidden;
 }
 `;
 

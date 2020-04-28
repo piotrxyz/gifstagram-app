@@ -1,9 +1,10 @@
 import React from 'react';
+import style from './gif.module.css';
 
-const Gif = () => {
+const Gif = ({ image }) => {
     return (
-        <div>
-
+        <div className={style.gif}>
+            <img className={style.img} src={image} alt="" />
         </div>
     )
 };
