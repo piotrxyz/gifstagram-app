@@ -1,11 +1,16 @@
 import styled from 'styled-components';
 
 const Title = styled.h1`
-margin-top: 100px;
 text-align: center;
-font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+font-family: 'Gloria Hallelujah', cursive;
 font-size: 40px;
-color: white;
+font-weight: 300;
+padding-top: 5%;
+padding-bottom: 5%;
+a {
+    text-decoration: none;
+    color: white;
+}
 `
 
 export default Title;

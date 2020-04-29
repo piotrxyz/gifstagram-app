@@ -11,6 +11,8 @@ height: 50px;
 border: transparent;
 font-family: sans-serif;
 cursor: pointer;
+position: absolute;
+right: 0px;
 `;
 
 export default Button;
