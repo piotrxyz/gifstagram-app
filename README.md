@@ -1,13 +1,19 @@
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+## Gifstagram
+Gifstagram app allows user to search for gifs. Application was created for job recruitment and learning purposes.
 
-## Available Scripts
+# Installation
+Use the npm package menager to install the app:
 
-In the project directory, you can run:
+`npm install` <br>
 
-### `npm start`
+To run application locally:
 
-Runs the app in the development mode.<br />
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+`npm start`
 
-The page will reload if you make edits.<br />
-You will also see any lint errors in the console.
+# Live version
+Live version of current state of application is available at https://piotrxyz.github.io/mkcoders-app/
+
+# Built With
+- React
+- Styled Components
+- CSS
