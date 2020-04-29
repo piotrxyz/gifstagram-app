@@ -1,0 +1,24 @@
+{
+  "files": {
+    "main.css": "/mkcoders-app/static/css/main.b5f319fb.chunk.css",
+    "main.js": "/mkcoders-app/static/js/main.0a6299e5.chunk.js",
+    "main.js.map": "/mkcoders-app/static/js/main.0a6299e5.chunk.js.map",
+    "runtime-main.js": "/mkcoders-app/static/js/runtime-main.0f98ce45.js",
+    "runtime-main.js.map": "/mkcoders-app/static/js/runtime-main.0f98ce45.js.map",
+    "static/js/2.210654f0.chunk.js": "/mkcoders-app/static/js/2.210654f0.chunk.js",
+    "static/js/2.210654f0.chunk.js.map": "/mkcoders-app/static/js/2.210654f0.chunk.js.map",
+    "index.html": "/mkcoders-app/index.html",
+    "precache-manifest.f6e855c1497120716b0f2ddfaffae866.js": "/mkcoders-app/precache-manifest.f6e855c1497120716b0f2ddfaffae866.js",
+    "service-worker.js": "/mkcoders-app/service-worker.js",
+    "static/css/main.b5f319fb.chunk.css.map": "/mkcoders-app/static/css/main.b5f319fb.chunk.css.map",
+    "static/js/2.210654f0.chunk.js.LICENSE.txt": "/mkcoders-app/static/js/2.210654f0.chunk.js.LICENSE.txt",
+    "static/media/buttons.module.css": "/mkcoders-app/static/media/twocolumns.b313c33c.svg",
+    "static/media/search.svg": "/mkcoders-app/static/media/search.278d8d84.svg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.0f98ce45.js",
+    "static/js/2.210654f0.chunk.js",
+    "static/css/main.b5f319fb.chunk.css",
+    "static/js/main.0a6299e5.chunk.js"
+  ]
+}
