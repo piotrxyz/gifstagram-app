@@ -1,14 +1,14 @@
 {
   "files": {
     "main.css": "/mkcoders-app/static/css/main.b5f319fb.chunk.css",
-    "main.js": "/mkcoders-app/static/js/main.0a6299e5.chunk.js",
-    "main.js.map": "/mkcoders-app/static/js/main.0a6299e5.chunk.js.map",
+    "main.js": "/mkcoders-app/static/js/main.58259c27.chunk.js",
+    "main.js.map": "/mkcoders-app/static/js/main.58259c27.chunk.js.map",
     "runtime-main.js": "/mkcoders-app/static/js/runtime-main.0f98ce45.js",
     "runtime-main.js.map": "/mkcoders-app/static/js/runtime-main.0f98ce45.js.map",
     "static/js/2.210654f0.chunk.js": "/mkcoders-app/static/js/2.210654f0.chunk.js",
     "static/js/2.210654f0.chunk.js.map": "/mkcoders-app/static/js/2.210654f0.chunk.js.map",
     "index.html": "/mkcoders-app/index.html",
-    "precache-manifest.f6e855c1497120716b0f2ddfaffae866.js": "/mkcoders-app/precache-manifest.f6e855c1497120716b0f2ddfaffae866.js",
+    "precache-manifest.bd5b4a967e8ac5a2ce7f0bbc5610b4a8.js": "/mkcoders-app/precache-manifest.bd5b4a967e8ac5a2ce7f0bbc5610b4a8.js",
     "service-worker.js": "/mkcoders-app/service-worker.js",
     "static/css/main.b5f319fb.chunk.css.map": "/mkcoders-app/static/css/main.b5f319fb.chunk.css.map",
     "static/js/2.210654f0.chunk.js.LICENSE.txt": "/mkcoders-app/static/js/2.210654f0.chunk.js.LICENSE.txt",
@@ -19,6 +19,6 @@
     "static/js/runtime-main.0f98ce45.js",
     "static/js/2.210654f0.chunk.js",
     "static/css/main.b5f319fb.chunk.css",
-    "static/js/main.0a6299e5.chunk.js"
+    "static/js/main.58259c27.chunk.js"
   ]
 }
