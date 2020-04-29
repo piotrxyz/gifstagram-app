@@ -17,6 +17,14 @@ const GlobalStyle = createGlobalStyle`
   margin-left: 3%;
 }
 
+textarea,
+input.text,
+input[type="text"],
+input[type="button"],
+input[type="submit"] {
+  -webkit-appearance: none;
+}
+
 body {
   width: 100vw;
   height: 100vh;

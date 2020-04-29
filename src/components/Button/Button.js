@@ -9,6 +9,7 @@ font-size: 30px;
 width: 50px;
 height: 50px;
 border: transparent;
+border-radius: 0;
 font-family: sans-serif;
 cursor: pointer;
 position: absolute;
