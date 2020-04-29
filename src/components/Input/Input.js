@@ -5,6 +5,7 @@ font-size: 30px;
 width: 100%;
 height: 50px;
 border: transparent;
+border-radius: 0;
 `;
 
 export default Input;

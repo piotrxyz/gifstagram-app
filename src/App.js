@@ -57,7 +57,7 @@ const App = () => {
     <>
       <GlobalStyle />
       <Main>
-        <Title><a href="/">Gifstagram</a></Title>
+        <Title><a href="/mkcoders-app">Gifstagram</a></Title>
         <Form onSubmit={getSearch}>
           <Input type="search" placeholder="Search for GIFs" value={search} onChange={updateSearch} />
           <Button type="submit" />
