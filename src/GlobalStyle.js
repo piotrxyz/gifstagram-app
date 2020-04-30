@@ -26,10 +26,7 @@ input[type="submit"] {
 }
 
 body {
-  width: 100vw;
-  height: 100vh;
-  background: linear-gradient(to right, #5433ff, #20bdff, #a5fecb);
-  background-size: cover;
+  background: linear-gradient(to right, #000046, #1cb5e0);
   overflow-x: hidden;
 }
 `;
