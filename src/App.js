@@ -6,7 +6,7 @@ import Form from './components/Form/Form';
 import Input from './components/Input/Input';
 import Button from './components/Button/Button';
 import Wrapper from './components/Wrapper/Wrapper';
-import Title from './components/Title/Title';
+import Logo from './components/Logo/Logo';
 import Gif from './components/Gif/Gif';
 import Main from './components/Main/Main';
 import Footer from './components/Footer/Footer';
@@ -100,12 +100,12 @@ const App = () => {
   return (
     <>
       <GlobalStyle />
-      <Main>
-        <Title>
-          <a href="/mkcoders-app">
-            Gifstagram
+      <Logo>
+        <a href="/mkcoders-app">
+          Gifstagram
             </a>
-        </Title>
+      </Logo>
+      <Main>
         <Form
           onSubmit={getSearch}
         >
