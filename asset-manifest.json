@@ -1,16 +1,16 @@
 {
   "files": {
-    "main.css": "/mkcoders-app/static/css/main.2c2e2f89.chunk.css",
-    "main.js": "/mkcoders-app/static/js/main.ebd22037.chunk.js",
-    "main.js.map": "/mkcoders-app/static/js/main.ebd22037.chunk.js.map",
+    "main.css": "/mkcoders-app/static/css/main.3a03a425.chunk.css",
+    "main.js": "/mkcoders-app/static/js/main.f529050d.chunk.js",
+    "main.js.map": "/mkcoders-app/static/js/main.f529050d.chunk.js.map",
     "runtime-main.js": "/mkcoders-app/static/js/runtime-main.0f98ce45.js",
     "runtime-main.js.map": "/mkcoders-app/static/js/runtime-main.0f98ce45.js.map",
     "static/js/2.97ed4f32.chunk.js": "/mkcoders-app/static/js/2.97ed4f32.chunk.js",
     "static/js/2.97ed4f32.chunk.js.map": "/mkcoders-app/static/js/2.97ed4f32.chunk.js.map",
     "index.html": "/mkcoders-app/index.html",
-    "precache-manifest.7e9bed35b416d068b137883d37ca147b.js": "/mkcoders-app/precache-manifest.7e9bed35b416d068b137883d37ca147b.js",
+    "precache-manifest.f9db36e1b1c2f5d297e2ea7cab1ae9e2.js": "/mkcoders-app/precache-manifest.f9db36e1b1c2f5d297e2ea7cab1ae9e2.js",
     "service-worker.js": "/mkcoders-app/service-worker.js",
-    "static/css/main.2c2e2f89.chunk.css.map": "/mkcoders-app/static/css/main.2c2e2f89.chunk.css.map",
+    "static/css/main.3a03a425.chunk.css.map": "/mkcoders-app/static/css/main.3a03a425.chunk.css.map",
     "static/js/2.97ed4f32.chunk.js.LICENSE.txt": "/mkcoders-app/static/js/2.97ed4f32.chunk.js.LICENSE.txt",
     "static/media/github.svg": "/mkcoders-app/static/media/github.fc9f8ba7.svg",
     "static/media/search.svg": "/mkcoders-app/static/media/search.278d8d84.svg"
@@ -18,7 +18,7 @@
   "entrypoints": [
     "static/js/runtime-main.0f98ce45.js",
     "static/js/2.97ed4f32.chunk.js",
-    "static/css/main.2c2e2f89.chunk.css",
-    "static/js/main.ebd22037.chunk.js"
+    "static/css/main.3a03a425.chunk.css",
+    "static/js/main.f529050d.chunk.js"
   ]
 }
