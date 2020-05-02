@@ -13,16 +13,16 @@ import Footer from './components/Footer/Footer';
 import Label from './components/Label/Label';
 import InputsWrapper from './components/InputsWrapper/InputsWrapper';
 import GithubLink from './components/GithubLink/GithubLink';
+import langs from './components/Languages/Languages';
+import rat from './components/Rating/Rating';
+import Select from './components/Select/Select';
 import GlobalStyle from './GlobalStyle';
 import './masonry-grid.css';
 
-// creating app
 
 const App = () => {
-
-  // creating const with my api key
-
-  const API_KEY = 'PCuGzjRL976eDGWefyroT70o1prN6TD5';
+  // api key hidden
+  const API_KEY = process.env.REACT_APP_API_KEY;
 
   const [gifs, setGifs] = useState([]);
   const [search, setSearch] = useState('');
@@ -30,7 +30,7 @@ const App = () => {
   const [limit, setLimit] = useState('');
   const [offset, setOffset] = useState('');
   const [rating, setRating] = useState('');
-  const [lang, setLang] = useState('');
+  const [lang, setLang] = useState('en');
 
   useEffect(() => {
     getData();
@@ -56,34 +56,28 @@ const App = () => {
     e.preventDefault();
     setQuery(search);
     setSearch('');
-    console.log('getting search value');
+    console.log('searching');
   }
-
-  // limit
 
   const updateLimit = e => {
     setLimit(e.target.value);
     console.log('updating limit value');
   }
 
-  // const getLimit = e => {
-  //   e.preventDefault();
-  //   setLimit(limit);
-  //   console.log('getting limit value');
-  // }
-
   const updateLang = e => {
     setLang(e.target.value);
     console.log('updating lang');
   }
 
-  // const getLang = e => {
-  //   e.preventDefault();
-  //   setLimit(limit);
-  //   console.log('');
-  // }
+  const updateOffset = e => {
+    setOffset(e.target.value);
+    console.log('setting offset value');
+  }
 
-
+  const updateRating = e => {
+    setRating(e.target.value);
+    console.log('setting rating value');
+  }
 
   // masonry responive columns set
 
@@ -100,43 +94,36 @@ const App = () => {
   return (
     <>
       <GlobalStyle />
-      <Logo>
-        <a href="/mkcoders-app">
-          Gifstagram
-            </a>
-      </Logo>
+      <Logo><a href="/mkcoders-app">Gifstagram</a></Logo>
       <Main>
-        <Form
-          onSubmit={getSearch}
-        >
-
-          <Label htmlfor="search"></Label>
+        <Form onSubmit={getSearch}>
+          <Label htmlFor="search"></Label>
           <Input
             type="search"
             placeholder="Search for GIFs"
             value={search}
             onChange={updateSearch}
           />
-
-          <Button
-            type="submit"
-          />
+          <Button type="submit" />
           <InputsWrapper>
-            <Label htmlfor="results">Results: </Label>
-            <Input results
+            <Label htmlFor="lang">Lang: </Label>
+            <Select id="langs" value={lang} onChange={updateLang}>{langs}</Select>
+            <Label htmlFor="results">Results: </Label>
+            <Input limit
               type="text"
               placeholder="25"
-
               value={limit}
               onChange={updateLimit}
             />
-            <Label htmlfor="language">Sort by lang: </Label>
-            <Input language
+            <Label htmlFor="offset">Offset: </Label>
+            <Input off
               type="text"
-              placeholder="PL / EN"
-              value={lang}
-              onChange={updateLang}
+              placeholder="0"
+              value={offset}
+              onChange={updateOffset}
             />
+            <Label htmlFor="rating">Rating: </Label>
+            <Select rating id="rating" value={rat} onChange={updateRating}>{rat}</Select>
           </InputsWrapper>
         </Form>
         <Wrapper>
@@ -146,7 +133,8 @@ const App = () => {
           <Masonry
             breakpointCols={breakpointColumnsObj}
             className="my-masonry-grid"
-            columnClassName="my-masonry-grid_column">
+            columnClassName="my-masonry-grid_column"
+          >
             {gifs.map(gif => (
               <Gif
                 key={gif.images.downsized.url}
@@ -166,7 +154,8 @@ const App = () => {
           title="app code link"
           aria-label="app code link"
           target="_blank"
-          rel="noopener noreferrer">
+          rel="noopener noreferrer"
+        >
         </GithubLink>
       </Footer>
     </>

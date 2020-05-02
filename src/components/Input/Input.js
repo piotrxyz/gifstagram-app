@@ -11,9 +11,7 @@ border: transparent;
 border-radius: 0;
 -webkit-appearance: none;
 
-${props =>
-    props.results &&
-    css`
+${props => props.limit && css`
     background: transparent;
     color: ${props => props.color};
     width: 20px;
@@ -22,25 +20,22 @@ ${props =>
     margin-left: 5px;
 
     ::placeholder {
-      color: ${props => props.color}
+      color: ${props => props.color};
 }
   `};
 
-  ${props =>
-    props.language &&
-    css`
+  ${props => props.off && css`
     background: transparent;
     color: ${props => props.color};
-    width: 50px;
+    width: 16px;
     height: 25px;
     font-size: 12px;
     margin-left: 5px;
 
     ::placeholder {
-      color: ${props => props.color}
+      color: ${props => props.color};
 }
   `};
-
 `;
 
 export default Input;

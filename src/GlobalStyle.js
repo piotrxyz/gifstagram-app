@@ -26,7 +26,7 @@ input[type="submit"] {
 }
 
 body {
-  background: linear-gradient(to right, #000046, #1cb5e0);
+  background: linear-gradient(to right, #56ccf2, #2f80ed);
   overflow-x: hidden;
 }
 `;
