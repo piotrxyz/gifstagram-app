@@ -13,10 +13,6 @@ const GlobalStyle = createGlobalStyle`
   display: none;
 }
 
-::-webkit-textfield-decoration-container {
-  margin-left: 3%;
-}
-
 textarea,
 input.text,
 input[type="text"],
@@ -26,7 +22,7 @@ input[type="submit"] {
 }
 
 body {
-  background: linear-gradient(to right, #56ccf2, #2f80ed);
+  background: linear-gradient(to left, #56ccf2, #2f80ed);
   overflow-x: hidden;
 }
 `;

@@ -4,6 +4,7 @@ const Input = styled.input.attrs(props => ({
   color: props.color || "black",
 }))`
 
+padding-left: 2%;
 font-size: 20px;
 width: 100%;
 height: 50px;
@@ -18,6 +19,7 @@ ${props => props.limit && css`
     height: 25px;
     font-size: 12px;
     margin-left: 5px;
+    padding-left: 0;
 
     ::placeholder {
       color: ${props => props.color};
@@ -31,6 +33,7 @@ ${props => props.limit && css`
     height: 25px;
     font-size: 12px;
     margin-left: 5px;
+    padding-left: 0%;
 
     ::placeholder {
       color: ${props => props.color};

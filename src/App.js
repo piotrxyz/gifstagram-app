@@ -1,5 +1,3 @@
-// importing components
-
 import React, { useEffect, useState } from 'react';
 import Masonry from 'react-masonry-css';
 import Form from './components/Form/Form';
@@ -34,7 +32,7 @@ const App = () => {
 
   useEffect(() => {
     getData();
-  }, [query]);
+  }, [query]); // eslint-disable-line react-hooks/exhaustive-deps
 
   // fetching data from giphy api using api key
 
@@ -49,34 +47,34 @@ const App = () => {
 
   const updateSearch = e => {
     setSearch(e.target.value);
-    console.log('updating search value');
+    // console.log('updating search value');
   }
 
   const getSearch = e => {
     e.preventDefault();
     setQuery(search);
     setSearch('');
-    console.log('searching');
+    // console.log('searching');
   }
 
   const updateLimit = e => {
     setLimit(e.target.value);
-    console.log('updating limit value');
+    // console.log('updating limit value');
   }
 
   const updateLang = e => {
     setLang(e.target.value);
-    console.log('updating lang');
+    // console.log('updating lang');
   }
 
   const updateOffset = e => {
     setOffset(e.target.value);
-    console.log('setting offset value');
+    // console.log('setting offset value');
   }
 
   const updateRating = e => {
     setRating(e.target.value);
-    console.log('setting rating value');
+    // console.log('setting rating value');
   }
 
   // masonry responive columns set
@@ -107,7 +105,13 @@ const App = () => {
           <Button type="submit" />
           <InputsWrapper>
             <Label htmlFor="lang">Lang: </Label>
-            <Select id="langs" value={lang} onChange={updateLang}>{langs}</Select>
+            <Select
+              id="langs"
+              value={lang}
+              onChange={updateLang}
+            >
+              {langs}
+            </Select>
             <Label htmlFor="results">Results: </Label>
             <Input limit
               type="text"
@@ -123,7 +127,13 @@ const App = () => {
               onChange={updateOffset}
             />
             <Label htmlFor="rating">Rating: </Label>
-            <Select rating id="rating" value={rat} onChange={updateRating}>{rat}</Select>
+            <Select rating
+              id="rating"
+              value={rating}
+              onChange={updateRating}
+            >
+              {rat}
+            </Select>
           </InputsWrapper>
         </Form>
         <Wrapper>
@@ -132,8 +142,8 @@ const App = () => {
 
           <Masonry
             breakpointCols={breakpointColumnsObj}
-            className="my-masonry-grid"
-            columnClassName="my-masonry-grid_column"
+            className="masonry-grid"
+            columnClassName="masonry-column"
           >
             {gifs.map(gif => (
               <Gif

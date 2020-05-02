@@ -1,9 +1,9 @@
 import styled, { css } from 'styled-components';
 
 const Select = styled.select.attrs(props => ({
-	width: props.width || "35px",
+  width: props.width || "35px",
 }))`
-  width: 15px;
+  width: 18px;
   margin-left: 3px;
   margin-right: 3px;
 	display: block;
