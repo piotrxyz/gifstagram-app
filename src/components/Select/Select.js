@@ -1,11 +1,11 @@
 import styled, { css } from 'styled-components';
 
 const Select = styled.select.attrs(props => ({
-  width: props.width || "35px",
+  width: props.width || "40px",
 }))`
   width: 18px;
-  margin-left: 3px;
-  margin-right: 3px;
+  /* margin-left: 3px;
+  margin-right: 3px; */
 	display: block;
 	font-size: 12px;
   color: black;

@@ -7,7 +7,7 @@ right: 0;
 display: flex;
 justify-content: space-around;
 align-items: center;
-width: 215px;
+width: 245px;
 height: 20px;
 `
 
