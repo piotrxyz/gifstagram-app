@@ -18,8 +18,6 @@ ${props => props.limit && css`
     width: 20px;
     height: 25px;
     font-size: 12px;
-    /* margin-left: 5px;
-    padding-left: 0; */
 
     ::placeholder {
       color: ${props => props.color};
@@ -33,8 +31,6 @@ ${props => props.limit && css`
     width: 16px;
     height: 25px;
     font-size: 12px;
-    /* margin-left: 5px;
-    padding-left: 0%; */
 
     ::placeholder {
       color: ${props => props.color};
