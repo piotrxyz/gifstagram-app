@@ -92,7 +92,7 @@ const App = () => {
   return (
     <>
       <GlobalStyle />
-      <Logo><a href="/mkcoders-app">Gifstagram</a></Logo>
+      <Logo><a href="/mkcoders-app" aria-label="home">Gifstagram</a></Logo>
       <Main>
         <Form onSubmit={getSearch}>
           <Label htmlFor="search"></Label>
@@ -102,10 +102,11 @@ const App = () => {
             value={search}
             onChange={updateSearch}
           />
-          <Button type="submit" />
+          <Button type="submit" title="Search" aria-label="search button" />
           <InputsWrapper>
             <Label htmlFor="lang">Lang: </Label>
             <Select
+              title="choose language"
               id="langs"
               value={lang}
               onChange={updateLang}
@@ -114,6 +115,7 @@ const App = () => {
             </Select>
             <Label htmlFor="results">Results: </Label>
             <Input limit
+              title="number of results"
               type="text"
               placeholder="25"
               value={limit}
@@ -121,6 +123,7 @@ const App = () => {
             />
             <Label htmlFor="offset">Offset: </Label>
             <Input off
+              title="offset number"
               type="text"
               placeholder="0"
               value={offset}
@@ -128,6 +131,7 @@ const App = () => {
             />
             <Label htmlFor="rating">Rating: </Label>
             <Select rating
+              title="sort by rating"
               id="rating"
               value={rating}
               onChange={updateRating}

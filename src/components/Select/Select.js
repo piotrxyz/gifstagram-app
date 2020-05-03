@@ -3,7 +3,7 @@ import styled, { css } from 'styled-components';
 const Select = styled.select.attrs(props => ({
   width: props.width || "40px",
 }))`
-  width: 18px;
+  width: 20px;
 	display: block;
 	font-size: 12px;
   color: black;
@@ -13,6 +13,7 @@ const Select = styled.select.attrs(props => ({
 	-moz-appearance: none;
 	-webkit-appearance: none;
   appearance: none;
+  cursor: pointer;
     
 ::-ms-expand {
 	display: none;

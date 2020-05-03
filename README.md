@@ -14,7 +14,7 @@ To run application locally:
 Live version of current state of application is available at https://piotrxyz.github.io/mkcoders-app/
 
 ## Instruction
-In search bar type what gif are you looking for. You can type how many result you want to view in the input below. You are able to sort gifs by language and rating also.
+In search bar type what gif are you looking for. User can specify how many results they want to display by typing number in the input below. User is able to sort gifs by language and rating also.
 
 ## Built With
 - React
