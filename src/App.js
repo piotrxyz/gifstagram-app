@@ -92,7 +92,7 @@ const App = () => {
   return (
     <>
       <GlobalStyle />
-      <Logo><a href="/mkcoders-app" aria-label="home">Gifstagram</a></Logo>
+      <Logo><a href="/gifstagram-app" aria-label="home">Gifstagram</a></Logo>
       <Main>
         <Form onSubmit={getSearch}>
           <Label htmlFor="search"></Label>
