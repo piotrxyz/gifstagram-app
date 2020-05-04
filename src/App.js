@@ -164,7 +164,7 @@ const App = () => {
       <Footer>
         &copy; Piotr Kwak
         <GithubLink
-          href="https://github.com/piotrxyz/mkcoders-app"
+          href="https://github.com/piotrxyz/gifstagram-app"
           title="app code link"
           aria-label="app code link"
           target="_blank"
