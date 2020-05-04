@@ -1,24 +1,24 @@
 {
   "files": {
-    "main.css": "/mkcoders-app/static/css/main.3a03a425.chunk.css",
-    "main.js": "/mkcoders-app/static/js/main.3a1b28ee.chunk.js",
-    "main.js.map": "/mkcoders-app/static/js/main.3a1b28ee.chunk.js.map",
-    "runtime-main.js": "/mkcoders-app/static/js/runtime-main.0f98ce45.js",
-    "runtime-main.js.map": "/mkcoders-app/static/js/runtime-main.0f98ce45.js.map",
-    "static/js/2.97ed4f32.chunk.js": "/mkcoders-app/static/js/2.97ed4f32.chunk.js",
-    "static/js/2.97ed4f32.chunk.js.map": "/mkcoders-app/static/js/2.97ed4f32.chunk.js.map",
-    "index.html": "/mkcoders-app/index.html",
-    "precache-manifest.ba628eb80b7022efbaf5c761b8b0f273.js": "/mkcoders-app/precache-manifest.ba628eb80b7022efbaf5c761b8b0f273.js",
-    "service-worker.js": "/mkcoders-app/service-worker.js",
-    "static/css/main.3a03a425.chunk.css.map": "/mkcoders-app/static/css/main.3a03a425.chunk.css.map",
-    "static/js/2.97ed4f32.chunk.js.LICENSE.txt": "/mkcoders-app/static/js/2.97ed4f32.chunk.js.LICENSE.txt",
-    "static/media/github.svg": "/mkcoders-app/static/media/github.fc9f8ba7.svg",
-    "static/media/search.svg": "/mkcoders-app/static/media/search.278d8d84.svg"
+    "main.css": "/gifstagram-app/static/css/main.0f82d074.chunk.css",
+    "main.js": "/gifstagram-app/static/js/main.3648bf89.chunk.js",
+    "main.js.map": "/gifstagram-app/static/js/main.3648bf89.chunk.js.map",
+    "runtime-main.js": "/gifstagram-app/static/js/runtime-main.a0059358.js",
+    "runtime-main.js.map": "/gifstagram-app/static/js/runtime-main.a0059358.js.map",
+    "static/js/2.ce55731b.chunk.js": "/gifstagram-app/static/js/2.ce55731b.chunk.js",
+    "static/js/2.ce55731b.chunk.js.map": "/gifstagram-app/static/js/2.ce55731b.chunk.js.map",
+    "index.html": "/gifstagram-app/index.html",
+    "precache-manifest.c5a95c844d7393288c746caf99996a64.js": "/gifstagram-app/precache-manifest.c5a95c844d7393288c746caf99996a64.js",
+    "service-worker.js": "/gifstagram-app/service-worker.js",
+    "static/css/main.0f82d074.chunk.css.map": "/gifstagram-app/static/css/main.0f82d074.chunk.css.map",
+    "static/js/2.ce55731b.chunk.js.LICENSE.txt": "/gifstagram-app/static/js/2.ce55731b.chunk.js.LICENSE.txt",
+    "static/media/github.svg": "/gifstagram-app/static/media/github.fc9f8ba7.svg",
+    "static/media/search.svg": "/gifstagram-app/static/media/search.278d8d84.svg"
   },
   "entrypoints": [
-    "static/js/runtime-main.0f98ce45.js",
-    "static/js/2.97ed4f32.chunk.js",
-    "static/css/main.3a03a425.chunk.css",
-    "static/js/main.3a1b28ee.chunk.js"
+    "static/js/runtime-main.a0059358.js",
+    "static/js/2.ce55731b.chunk.js",
+    "static/css/main.0f82d074.chunk.css",
+    "static/js/main.3648bf89.chunk.js"
   ]
 }
