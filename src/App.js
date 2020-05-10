@@ -162,8 +162,7 @@ const App = () => {
         </Wrapper>
       </Main>
       <Footer>
-        &copy; Piotr Kwak
-        <GithubLink
+      <GithubLink
           href="https://github.com/piotrxyz/gifstagram-app"
           title="app code link"
           aria-label="app code link"
@@ -171,6 +170,7 @@ const App = () => {
           rel="noopener noreferrer"
         >
         </GithubLink>
+        &copy; 2020 PK
       </Footer>
     </>
   );
