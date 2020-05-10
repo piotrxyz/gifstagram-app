@@ -14,7 +14,7 @@
 importScripts("https://storage.googleapis.com/workbox-cdn/releases/4.3.1/workbox-sw.js");
 
 importScripts(
-  "/gifstagram-app/precache-manifest.7e17a445836c6ec809bdb1cac219ce39.js"
+  "/gifstagram-app/precache-manifest.0a96e1d38da371deacf17d6127079712.js"
 );
 
 self.addEventListener('message', (event) => {

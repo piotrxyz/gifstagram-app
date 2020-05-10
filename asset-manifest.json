@@ -1,14 +1,14 @@
 {
   "files": {
     "main.css": "/gifstagram-app/static/css/main.0f82d074.chunk.css",
-    "main.js": "/gifstagram-app/static/js/main.54b34295.chunk.js",
-    "main.js.map": "/gifstagram-app/static/js/main.54b34295.chunk.js.map",
+    "main.js": "/gifstagram-app/static/js/main.07bdf4e7.chunk.js",
+    "main.js.map": "/gifstagram-app/static/js/main.07bdf4e7.chunk.js.map",
     "runtime-main.js": "/gifstagram-app/static/js/runtime-main.a0059358.js",
     "runtime-main.js.map": "/gifstagram-app/static/js/runtime-main.a0059358.js.map",
     "static/js/2.ce55731b.chunk.js": "/gifstagram-app/static/js/2.ce55731b.chunk.js",
     "static/js/2.ce55731b.chunk.js.map": "/gifstagram-app/static/js/2.ce55731b.chunk.js.map",
     "index.html": "/gifstagram-app/index.html",
-    "precache-manifest.7e17a445836c6ec809bdb1cac219ce39.js": "/gifstagram-app/precache-manifest.7e17a445836c6ec809bdb1cac219ce39.js",
+    "precache-manifest.0a96e1d38da371deacf17d6127079712.js": "/gifstagram-app/precache-manifest.0a96e1d38da371deacf17d6127079712.js",
     "service-worker.js": "/gifstagram-app/service-worker.js",
     "static/css/main.0f82d074.chunk.css.map": "/gifstagram-app/static/css/main.0f82d074.chunk.css.map",
     "static/js/2.ce55731b.chunk.js.LICENSE.txt": "/gifstagram-app/static/js/2.ce55731b.chunk.js.LICENSE.txt",
@@ -19,6 +19,6 @@
     "static/js/runtime-main.a0059358.js",
     "static/js/2.ce55731b.chunk.js",
     "static/css/main.0f82d074.chunk.css",
-    "static/js/main.54b34295.chunk.js"
+    "static/js/main.07bdf4e7.chunk.js"
   ]
 }

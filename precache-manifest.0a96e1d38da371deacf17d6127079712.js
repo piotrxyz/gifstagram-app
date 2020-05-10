@@ -1,10 +1,10 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "ec79c14d77854344f54a294b22012e65",
+    "revision": "14c4147705040b143c551ded75570635",
     "url": "/gifstagram-app/index.html"
   },
   {
-    "revision": "4833a65b9f71694149d8",
+    "revision": "c016ce6bf2af33faf191",
     "url": "/gifstagram-app/static/css/main.0f82d074.chunk.css"
   },
   {
@@ -16,8 +16,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/gifstagram-app/static/js/2.ce55731b.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "4833a65b9f71694149d8",
-    "url": "/gifstagram-app/static/js/main.54b34295.chunk.js"
+    "revision": "c016ce6bf2af33faf191",
+    "url": "/gifstagram-app/static/js/main.07bdf4e7.chunk.js"
   },
   {
     "revision": "1988d1f29c5daaec31f0",
