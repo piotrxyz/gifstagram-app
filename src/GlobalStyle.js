@@ -9,6 +9,10 @@ const GlobalStyle = createGlobalStyle`
   padding: 0;
 }
 
+*:focus {
+  outline: 1px dotted white;
+}
+
 ::-webkit-search-cancel-button {
   display: none;
 }
